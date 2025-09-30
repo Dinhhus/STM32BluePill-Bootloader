@@ -22,3 +22,4 @@ Nếu ko chạy thì restart lại Canbus
 
     sudo ip link set can0 up
 
+#Máy BTT-PAD7 sau khi cài canboot ko phải khởi động lại Canbus nữa.
