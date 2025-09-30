@@ -12,5 +12,13 @@ Lệnh tìm can id
 
     ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 
+Nếu ko chạy thì restart lại Canbus
 
+    sudo ip link set can0 down
+
+    sudo ip link set can0 type can restart
+
+    sudo ip link set can0 type can bitrate 500000 
+
+    sudo ip link set can0 up
 
